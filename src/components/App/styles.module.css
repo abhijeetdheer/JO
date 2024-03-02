@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+.container {
+  height: 100vh;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e3e1e1;
+  font-family: "Rajdhani", sans-serif;;
+  text-align: center;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 7.5em;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px rgba(152, 148, 148, 0.8);
+  margin: 0.5em;
+  color: hsla(0, 15%, 91%, 0.945);
+}
+ .logo{
+  height: 80%;
+  width : 80%;
+ }
+.subtitle {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  
+  height: 1em;
+  line-height: 1em;
+  color: #fff;
+  padding-bottom: 5em;
+}
+
+.links {
+  
+  position: absolute;
+  display: inline-block;
+  right: 1.5em;
+  bottom: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .links {
+    margin-top: 1em ;
+    padding: 0 1em;
+    display: block;
+    width: 100%;
+    right: initial;
+  }
+}
